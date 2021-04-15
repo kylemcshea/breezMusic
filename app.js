@@ -8,9 +8,9 @@ app.use(bodyParser.json());
 
 // for parsing application/xwww-
 app.use(bodyParser.urlencoded({ extended: true }));
-const accountSid = "ACf6ce916375763b2ff10d7a156c9cb1e0";
-const authToken = "f562529695d007e1fe538a1373ff6560";
-const client = require("twilio")(accountSid, authToken);
+const a = "ACf6ce916375763b2ff10d7a156c9cb1e0";
+const b = "f562529695d007e1fe538a1373ff6560";
+const client = require("twilio")(a, b);
 // viewed at http://localhost:8080
 
 app.get("/", function (req, res) {
