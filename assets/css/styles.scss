@@ -158,7 +158,7 @@ section {
         transition: all 0.3s;
         font-size: 20px;
         margin-right: 5px;
-        font-family: "Louis-George-Cafe-Bold.ttf";
+        font-family: "Louis-George-Cafe-Bold.ttf", Helvetica, sans-serif;
         color: $white;
         &:hover {
           box-shadow: 0 16px 14px 0 rgba(0, 0, 0, 0.1);
@@ -403,7 +403,7 @@ section {
         margin-bottom: 35px;
       }
       h5 {
-        font-family: "Louis-George-Cafe-Bold.ttf";
+        font-family: "Louis-George-Cafe-Bold.ttf", Helvetica, sans-serif;
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: -0.22px;
@@ -412,7 +412,7 @@ section {
       }
       h6 {
         opacity: 0.5;
-        font-family: "Louis-George-Cafe.ttf";
+        font-family: "Louis-George-Cafe.ttf", Helvetica, sans-serif;
         font-size: 16px;
         line-height: 1.25;
         letter-spacing: -0.22px;
@@ -749,7 +749,7 @@ section {
   color: $white;
   position: relative;
   margin: 0 auto;
-  font-family: "Louis-George-Cafe-Bold.ttf";
+  font-family: "Louis-George-Cafe-Bold.ttf", Helvetica, sans-serif;
   &::after {
     content: attr(data-text);
     position: absolute;
